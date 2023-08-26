@@ -6,15 +6,19 @@ print(f"My name is {MyName} and I am {MyAge} years old")
 No1 = int(input("Enter number  "))
 No2 = int(input("Enter another number  "))
 op = input("please choose an operation / * - +")
+x = No1 * No2
+d = No1/No2
+p = No1 + No2
+m = No1 - No2
 
 if op == "/":
-    print(f"{No1}/{No2}") 
+    print(f"{No1}/{No2} = {d}") 
 elif op == "*":
-    print(f"{No1}*{No2}")
+    print(f"{No1}*{No2} = {x}")
 elif op == "-":
-    print(f"{No1}-{No2}")
+    print(f"{No1}-{No2} = {m}")
 elif op == "+":
-    print(f"{No1}+{No2}")
+    print(f"{No1}+{No2} = {p}")
 else:
     print("what is wrong with u")
 
